@@ -2,8 +2,9 @@
   align-items: center;
   background-color: hsl(40, 100%, 50%);
   display: flex;
-  width: 500px;
+  flex-direction: column;
   padding: 10px;
+  width: 500px;
 }
 
 .project {
@@ -11,19 +12,35 @@
   background-color: hsl(50, 100%, 50%);
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 5px;
 }
 
 .project-banner {
+  align-items: center;
   border-radius: 10px;
   display: flex;
-  align-items: center;
+}
+
+.project-banner a {
+  margin-right: 120px;
+  padding: 7px;
+}
+
+.tell-me-more {
+  background-color: hsl(70, 100%, 50%);
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+  padding: 6px;
 }
 
 .project-description {
+  align-items: center;
   background-color: hsl(60, 100%, 50%);
   border-radius: 10px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  padding: 7px;
+  width: 90%;
 }
