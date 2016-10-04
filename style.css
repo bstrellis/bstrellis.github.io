@@ -59,11 +59,11 @@ body {
   width: 100%
 }
 
-.project-banner a {
+.project-name {
   color: black;
   font-size: 20px;
   font-weight: 600;
-  margin-left: 60px;
+  margin-left: 40px;
   padding: 7px;
 }
 
