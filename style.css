@@ -3,26 +3,29 @@ body {
   background-color: hsl(40, 100%, 50%);
   display: flex;
   flex-direction: column;
+  font-family: 'Londrina Sketch', cursive;
   justify-content: center;
 }
 
 .banner {
-  font-family: 'Londrina Sketch', cursive;
+  align-items: center;
+  display: flex;
+  width: 435px;
 }
 
-.our-hero {
-  background-image: url(https://www.polartrec.com/files/members/kevin-mcmahon/images/dsc_0612_2.jpg);
-  background-size: cover;
-  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
-  height: 250px;
-  width:250px;
+.banner h1 {
+  font-size: 50px;
+  margin-right: 40px;
+}
+
+.banner h2 {
+  width: 40px;
 }
 
 .projects {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-family: 'Coming Soon', cursive;
   padding: 10px;
   width: 500px;
 }
@@ -33,30 +36,37 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  font-family: 'Coming Soon', cursive;
   justify-content: space-between;
   margin: 5px;
   padding: 5px;
-  width: 400px;
+  width: 100%;
 }
 
 .project-banner {
   align-items: center;
   border-radius: 10px;
   display: flex;
+  justify-content: space-between;
   width: 100%
 }
 
 .project-banner a {
-  margin-left: 40px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 60px;
   padding: 7px;
+  text-decoration: none !important;
 }
 
 .tell-me-more {
-  background-color: hsl(70, 100%, 50%);
+  background-color: hsl(38, 100%, 50%);
   border-radius: 7px;
   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
   padding: 6px;
-  margin-left: 40px;
+  margin-bottom: 5px;
+  margin-right: 60px;
 }
 
 .project-description {
