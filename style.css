@@ -47,6 +47,10 @@ body {
   width: 100%;
 }
 
+.project a {
+  text-decoration: none !important;
+}
+
 .project-banner {
   align-items: center;
   border-radius: 10px;
@@ -61,10 +65,9 @@ body {
   font-weight: 600;
   margin-left: 60px;
   padding: 7px;
-  text-decoration: none !important;
 }
 
-.tell-me-more {
+.show-me-code {
   background-color: hsl(38, 100%, 50%);
   border-radius: 7px;
   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
