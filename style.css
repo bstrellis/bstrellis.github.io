@@ -30,6 +30,10 @@ body {
   width: 500px;
 }
 
+.projects-title {
+  font-size: 40px;
+}
+
 .project {
   align-items: center;
   background-color: hsl(50, 100%, 50%);
